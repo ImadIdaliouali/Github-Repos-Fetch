@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 40vw;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-input {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-input input {
+    width: 92%;
+    height: 35px;
+    font-size: 15px;
+}
+
+.user-input i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.repos-data {
+    width: 100%;
+    padding: 5px;
+}
+
+.repos-data .repos {
+    padding: 7px;
+    margin-top: 10px;
+    border: 1.5px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repos-info {
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars i {
+    color: yellow;
+}
